@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+iframe {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+#menu {
+    position: absolute;
+    height: 100%;
+    width: 70px;
+    background: #191919;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    scrollbar-width: none;
+    cursor: default;
+}
+#menu svg {
+    display: block;
+	position: relative;
+	width: 32px;
+	height: 32px;
+	left: 19px;
+	margin-top: 28px;
+	cursor: pointer;
+}
+#menu p {
+    color: gray;
+    text-align: center;
+    font-size: small;
+    user-select: none;
+}
+.menu-icon {
+    display: block;
+	max-width: 32px;
+	max-height: 32px;
+	fill: grey;
+}
+.menu-icon:hover {
+	fill: whitesmoke;
+	transition-duration:  0.1s;
+}
+#menu-button-sections {
+    position: fixed;
+    background: #191919;
+    color: grey;
+    border: 0;
+    border-top: 1px solid crimson;
+    bottom: 0;
+    display: none;
+}
+#wrapper {
+    position: absolute;
+    width: calc(100% - 70px);
+    height: 100%;
+    left: 70px;
+}
+#wrapper * {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    scrollbar-width: none;
+}
+#wrapper-profile {
+    background-color: crimson;
+}
+#wrapper-game {
+    background: gold;
+}
+#wrapper-motivation {
+    background-color: deepskyblue;
+}
+#authorization {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: none;
+}
+/* section profile */
+#profile {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    background-color: #141414;
+    border: 1px solid #272727;
+    top: 28px;
+    left: 70px;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+#profile-avatar {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    background: url("avatar.webp");
+    background-size: auto;
+    border-radius: 50%;
+    background-size: 110px;
+    top: 60px;
+    left: 28px;
+}
+#profile-name-user {
+    position: absolute;
+    color: #f7f8f8;
+    top: 60px;
+    left: 170px;
+    font-size: x-large;
+    margin: 0;
+}
+#profile-rating-text {
+    color: lime;
+    position: absolute;
+    top: 90px;
+    left: 170px;
+    font-size: large;
+    margin: 0;
+}
+#profile-level-text {
+    color: deepskyblue;
+    position: absolute;
+    top: 110px;
+    left: 170px;
+    font-size: large;
+    margin: 0;
+}
+/* section study */
+#study-sections {
+    position: absolute;
+    height: 100%;
+    width: 300px;
+    background: #191919;
+}
+#study {
+    position: absolute;
+    width: calc(100% - 300px);
+    left: 300px;
+    height: 100%;
+    background: orange;
+}
+/* section to do */
+#to-do {
+    position: absolute;
+    width: calc(100% - 300px);
+    left: 300px;
+    height: 100%;
+    background: chartreuse;
+}
+#to-do-sections {
+    position: absolute;
+    height: 100%;
+    width: 300px;
+    background: #191919;
+}
+/* section events */
+#events {
+    position: absolute;
+    width: calc(100% - 300px);
+    left: 300px;
+    height: 100%;
+    background: dodgerblue;
+}
+#events-sections {
+    position: absolute;
+    height: 100%;
+    width: 300px;
+    background: #191919;
+}
+/* section setting */
+#setting {
+    position: absolute;
+    width: calc(100% - 300px);
+    left: 300px;
+    height: 100%;
+    background-color: blueviolet;
+}
+#setting-sections {
+    position: absolute;
+    height: 100%;
+    width: 300px;
+    background: #191919;
+}
