@@ -49,7 +49,7 @@ function hide_study_list() {
         document.getElementById(menu_active).style.left = '0';
     } else if(sections[menu_active].style.display == 'none') {
         sections[menu_active].style.display = 'block';
-        document.getElementById(menu_active).style.width = 'calc(100% - 300px)';
-        document.getElementById(menu_active).style.left = '300px';
+        document.getElementById(menu_active).style.width = 'calc(100% - 260px)';
+        document.getElementById(menu_active).style.left = '260px';
     }
 }
